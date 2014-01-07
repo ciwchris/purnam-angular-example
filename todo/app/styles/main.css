@@ -1,0 +1,3 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+.remaining-todos li input[type=checkbox] { float:left; }
+.todo-done { text-decoration:line-through; color:gray; }

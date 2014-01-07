@@ -1,0 +1,10 @@
+<div class="centered">
+  <h1>Todo List</h1>
+  <span>{{remainingTodos()}} remaining</span>
+  <ul class="unstyled remaining-todos">
+    <li ng-repeat="t in todos">
+      <input id="item{{ $index }}" type="checkbox" ng-model=t.done>
+      <label for="item{{ $index }}" ng-class="{'todo-done': t.done}">{{t.text}}
+    <li>
+   </ul>
+</div>
